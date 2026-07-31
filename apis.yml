@@ -1,7 +1,16 @@
 aid: notti
 name: Notti
-description: Notti is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Notti (Notti Pet Food) is a Malaysian pet-nutrition startup selling premium
+  slow-baked kibble, treats, and supplements for dogs (Wou Wou) and cats (Mau
+  Mau) direct-to-consumer through a Shopify storefront. Formulations emphasise
+  ">=80% fresh meat", low-temperature slow-baking to preserve nutrients, no meat
+  meal or by-products, and AAFCO-compliant nutrition with no chemical
+  preservatives. The company is seed-funded, has been covered by Malaysian
+  business press (The Edge, The Star, Business Today, Free Malaysia Today), and
+  is tracked here as a 500 Global portfolio company. Notti operates as a
+  consumer e-commerce and retail brand and publishes no developer API,
+  documentation, or technical integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/notti/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://nottipetfood.com/cdn/shop/files/Asset_1_2x_53387d4e-a003-4f23-a48b-d82939325abe.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pet Food
+- Pet Nutrition
+- Consumer Packaged Goods
+- Direct-to-Consumer
+- E-Commerce
+- Pets
+- Malaysia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/notti-domain-security.yml
 - type: Website
   url: https://nottipetfood.com
+- type: Blog
+  url: https://nottipetfood.com/blogs/news
+- type: Support
+  url: https://nottipetfood.com/pages/contact
+- type: TermsOfService
+  url: https://nottipetfood.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://nottipetfood.com/policies/privacy-policy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
